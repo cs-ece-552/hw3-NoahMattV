@@ -1,0 +1,11 @@
+Line 16: Bad keyword initial
+Line 17: begin without always/case
+Line 22: Bad keyword posedge
+Line 22: Always without case(x)
+Line 27: Bad keyword negedge
+Line 31: Bad keyword if
+Line 31: Bad keyword !==
+Line 32: Bad keyword if
+Line 32: Bad keyword !==
+Line 27: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/hw3-NoahMattV/hw3_2/rca_16b_bench.v. Hash = 1414415112
