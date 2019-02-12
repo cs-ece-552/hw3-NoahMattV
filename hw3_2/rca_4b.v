@@ -10,6 +10,7 @@ module rca_4b(A, B, C_in, S, C_out);
     parameter   N = 4;
 
     input [N-1: 0] A, B;
+<<<<<<< HEAD
 	  input          C_in;
     output [N-1:0] S;
     output         C_out;
@@ -20,5 +21,12 @@ module rca_4b(A, B, C_in, S, C_out);
     fullAdder_1b FA_1 (.A(A[1]), .B(B[1]), .C_in(c_0), .S(S[1]), .C_out(c_1));
     fullAdder_1b FA_2 (.A(A[2]), .B(B[2]), .C_in(c_1), .S(S[2]), .C_out(c_2));
     fullAdder_1b FA_3 (.A(A[3]), .B(B[3]), .C_in(c_2), .S(S[3]), .C_out(C_out));
+=======
+    input          C_in;
+    output [N-1:0] S;
+    output         C_out;
+
+    // YOUR CODE HERE
+>>>>>>> hw3/master
 
 endmodule
